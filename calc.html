@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculate</title>
+
+        <link rel="stylesheet" href="./styles/calc_style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+        <script src="./scripts/calc.js"></script>
+    </head>
+    <body>
+        <h1>Calculate your<br>carbon footprint</h1>
+        <form method="post">
+            <label for="which_food_outlet">
+                Which food item do you eat often?
+            </label><br>
+            <select name="which_food" id="which_food_outlet">
+                <option value="sandwich">sandwich</option>
+                <option value="egg">egg</option>
+                <option value="paratha">paratha</option>
+                <option value="butter chicken">butter chicken</option>
+                <option value="fish">fish</option>
+            </select><br><br>
+
+            <label for="often">
+                How often do you have it in a week?
+            </label><br>
+            <input type="number" id="often" name="often" value="0"><br>
+
+            <button type="button" id="submit" onclick="getSelectedOption()">Submit</button>
+        </form>
+
+        <script src="./scripts/calc.js"></script>
+        
+        <b><p id="1"></p></b>
+
+        <b><p id="2"></p></b>
+        <img src="car.png" alt="car" class="car" id="carimage"><br><br>
+
+        <b><p id="3"></p></b>
+        <img src="tree.png" alt="tree" class="tree" id="treeimage"><br><br>
+
+        <a href="index.html"><button type="button" id="back">Back</button></a>
+    </body>
+</html>

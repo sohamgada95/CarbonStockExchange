@@ -1,0 +1,42 @@
+body {
+    margin-left: 110px;
+}
+
+.buttons {
+    margin-top: 20px;
+    width: 130px;
+    height: 50px;
+    
+    font-size: 22px;
+    background-color: white;
+    
+    border: 2px solid black;
+    border-radius: 50px;
+}
+.buttons:hover {
+    border: 4px solid rgb(20, 200, 0);
+}
+
+.container {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+#chart0 {
+    margin-top: 50px;
+}
+
+#chart1 {
+    margin-top: 71px;
+}
+
+#chart2 {
+    margin-top: 70px;
+    height: 80%;
+}
+
+
+hr {
+    margin-right: 1300px;
+}
